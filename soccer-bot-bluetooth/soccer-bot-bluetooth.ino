@@ -19,7 +19,7 @@ int valSpeed = 255;
 
 
 void setup(){
-  Serial.begin(9600);
+  Serial1.begin(9600);
   //Serial.begin(9600);// set up Serial library at 9600 bps
   
   
@@ -37,10 +37,10 @@ void setup(){
 }
 
 void loop() {
-  while (Serial.available() > 0) {
+  while (Serial11.available() > 0) {
 //     digitalWrite(A0, HIGH);
 //     digitalWrite(A1, HIGH);
-     char command = Serial.read();    // gets one byte from serial buffer
+     char command = Serial1.read();    // gets one byte from serial buffer
      //Serial.println(command);
     
     switch(command){
@@ -131,7 +131,7 @@ void SetSpeed(int valLeft, int valRight){
   if (valRight < 0) {
     // right Motor backward
     analogWrite(rpwmRight, 0);
-    analogWrite(lpwmRight, abs(valRight);
+    analogWrite(lpwmRight, abs(valRight));
   } else {
     // left Motor forward
     analogWrite(rpwmRight, valRight);
