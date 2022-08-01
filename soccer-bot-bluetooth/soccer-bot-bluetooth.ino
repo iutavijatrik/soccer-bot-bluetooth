@@ -1,5 +1,5 @@
 /*
- * app link: https://play.google.com/store/apps/details?id=com.bluino.arduinobluetoothrobotcar&hl=en&gl=US
+ * app link: https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
  * if u want to use other apps, modify the bluetooth commands on either side
 */
 // connections for right motors
