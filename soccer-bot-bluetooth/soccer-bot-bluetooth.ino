@@ -37,7 +37,7 @@ void setup(){
 }
 
 void loop() {
-  while (Serial11.available() > 0) {
+  while (Serial1.available() > 0) {
 //     digitalWrite(A0, HIGH);
 //     digitalWrite(A1, HIGH);
      char command = Serial1.read();    // gets one byte from serial buffer
