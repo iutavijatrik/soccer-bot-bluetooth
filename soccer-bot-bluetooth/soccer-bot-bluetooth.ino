@@ -1,5 +1,6 @@
 /*
  * app link: https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
+ alternate link for app: https://bluetooth-rc-car.en.softonic.com/android/download
  * if u want to use other apps, modify the bluetooth commands on either side
 */
 // connections for right motors
